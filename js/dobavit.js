@@ -23,7 +23,7 @@ function moveText(taskText, taskText1, taskText2 ) {
     div.classList.add("content_tasks");
 
     var img1 = document.createElement("img");
-    img1.src = "/img/png/выполнено.png";
+    img1.src = "img/png/выполнено.png";
     img1.alt = "cool project";
     img1.classList.add("icons_tasks_done");
     img1.onclick = function() {
@@ -51,7 +51,7 @@ function moveText(taskText, taskText1, taskText2 ) {
     p2.innerText = formattedDate;
 
     var img2 = document.createElement("img");
-    img2.src = "/img/png/удалить.png";
+    img2.src = "img/png/удалить.png";
     img2.alt = "cool project";
     img2.classList.add("icons_tasks");
     img2.onclick = function() {
@@ -125,7 +125,7 @@ function moveProjectText(taskText, taskText1, taskText2, taskText3) {
     
     
     var img1 = document.createElement("img");
-    img1.src = "/img/png/проект.png";
+    img1.src = "img/png/проект.png";
     img1.alt = "cool project";
     img1.classList.add("icons_pj");
 
@@ -155,7 +155,7 @@ function moveProjectText(taskText, taskText1, taskText2, taskText3) {
     p2.innerText = formattedDate;
 
     var img2 = document.createElement("img");
-    img2.src = "/img/png/удалить.png";
+    img2.src = "img/png/удалить.png";
     img2.alt = "cool project";
     img2.classList.add("icons_pj");
     img2.onclick = function() {
